@@ -1,0 +1,18 @@
+# Python: entorno virtual creado por uv
+.venv/
+
+# Python: bytecode compilado automáticamente al ejecutar
+__pycache__/
+*.pyc
+
+# Node.js: dependencias instaladas por npm
+node_modules/
+
+# Vite: archivos generados al compilar el frontend
+dist/
+
+# Secretos: contraseñas de la base de datos, claves de API
+.env
+
+# Registros
+*.log
