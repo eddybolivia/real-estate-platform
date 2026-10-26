@@ -7,7 +7,9 @@ authors = [
     { name = "Eduardo Garcia", email = "eddybolivia@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "fastapi[standard]>=0.162.0",
+]
 
 [project.scripts]
 backend = "backend:main"
